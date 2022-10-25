@@ -1,4 +1,4 @@
-package org.example;
+package clases;
 
 public class Vehiculo {
     private Long id;
@@ -92,6 +92,9 @@ public class Vehiculo {
                 ", precioHora=" + precioHora +
                 ", disponibilidad=" + disponibilidad +
                 '}';
+    }
+
+    public Vehiculo() {
     }
 }
 
