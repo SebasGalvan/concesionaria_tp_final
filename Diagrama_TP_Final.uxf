@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notesotr</help_text><element><id>UMLClass</id><coordinates><x>247</x><y>261</y><w>243</w><h>216</h></coordinates><panel_attributes>Persona
+<diagram program="umletino" version="15.0.0"><zoom_level>7</zoom_level><help_text>Space for diagram notesotr</help_text><element><id>UMLClass</id><coordinates><x>147</x><y>357</y><w>189</w><h>168</h></coordinates><panel_attributes>Persona
 --
 -id: Long
 -dni: String
@@ -13,31 +13,31 @@
 
 +setDni()
 +setFirstName()
-+setLastName()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>139</x><y>468</y><w>252</w><h>270</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>260;10;260;60;10;60;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>58</x><y>720</y><w>189</w><h>90</h></coordinates><panel_attributes>Empleado(Persona)
++setLastName()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>63</x><y>518</y><w>196</w><h>210</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>260;10;260;60;10;60;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>714</y><w>147</w><h>70</h></coordinates><panel_attributes>Empleado(Persona)
 --
 -legajo: String
 --
 +setLegajo(legajo: String)
-+getLegajo() : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>499</x><y>720</y><w>189</w><h>90</h></coordinates><panel_attributes>Cliente(Persona)
++getLegajo() : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>343</x><y>714</y><w>147</w><h>70</h></coordinates><panel_attributes>Cliente(Persona)
 --
 -
 --
 +
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>364</x><y>468</y><w>252</w><h>270</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60;260;60;260;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1660</x><y>702</y><w>387</w><h>423</h></coordinates><panel_attributes>Vehiculo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>238</x><y>518</y><w>196</w><h>210</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60;260;60;260;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1239</x><y>700</y><w>301</w><h>329</h></coordinates><panel_attributes>Vehiculo
 --
 -id : Long
 -year: Int
 -marca: String
--modelo: String 
+-modelo: String
 -km: Float
 -precio: Float
--precioHora :  Float 
+-precioHora :  Float
 -disponibilidad: Boolean
 --
 +Auto( year:int, marca: String, marcas: String,modelos: String,
-								 km: float , precio: float, precio_hora:float, 
+								 km: float , precio: float, precio_hora:float,
 									disponibilidad: boolean)
 +getId(): Long
 +getYear(): Int
@@ -55,7 +55,7 @@
 +setKm(km: Float)
 +setPrecio(precio: Float)
 +setPrecioHora(precioHora: Float)
-+setDisponibilidad(disponibilidad: Boolean)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>805</x><y>801</y><w>234</w><h>207</h></coordinates><panel_attributes>PlanesPago
++setDisponibilidad(disponibilidad: Boolean)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>581</x><y>777</y><w>182</w><h>161</h></coordinates><panel_attributes>PlanesPago
 --
 -IdPlan: Long
 -entrega : Float
@@ -70,7 +70,7 @@
 -setIdPlan(id: Long)
 +setEntrega(entrega : Float)
 +setCuotas(cuotas: Int)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>949</x><y>27</y><w>432</w><h>432</h></coordinates><panel_attributes>Operaciones
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>175</y><w>336</w><h>336</h></coordinates><panel_attributes>Operaciones
 --
 -id: Long
 -legajo:Int
@@ -101,14 +101,14 @@ idAuto:Long,id:Plan:Long)
 +setIdAuto(idAuto:Long)
 +setIdAuto(idAuto:Long)
 +setIdPlan(idPlan:Long)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1633</x><y>0</y><w>414</w><h>333</h></coordinates><panel_attributes>Repuesto
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1225</x><y>154</y><w>322</w><h>259</h></coordinates><panel_attributes>Repuesto
 --
 -id : Long
 -categoria: String
--marca: String 
+-marca: String
 -modelo: String
 -precio: Float
--stock:  Float 
+-stock:  Float
 --
 +Repueto(categoria:string, marca: String, modelos: String,
 								  precio: float, stock:float )
@@ -124,22 +124,22 @@ idAuto:Long,id:Plan:Long)
 +setMarca(marca: String)
 +setModelo(modelo: String)
 +setPrecio(precio: Float)
-+setStock(stock: Float)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>76</x><y>72</y><w>891</w><h>666</h></coordinates><panel_attributes>lt=-
++setStock(stock: Float)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>14</x><y>210</y><w>693</w><h>518</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=0..m
-registra / es registrada&gt;</panel_attributes><additional_attributes>10;720;10;20;970;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1372</x><y>117</y><w>279</w><h>45</h></coordinates><panel_attributes>lt=-
+registra / es registrada&gt;</panel_attributes><additional_attributes>10;720;10;20;970;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1022</x><y>245</y><w>217</w><h>35</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=1..n
-tiene&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1147</x><y>450</y><w>522</w><h>432</h></coordinates><panel_attributes>lt=-
+tiene&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>847</x><y>504</y><w>406</w><h>336</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1..1
-vende&gt;</panel_attributes><additional_attributes>10;10;10;450;560;450</additional_attributes></element><element><id>Relation</id><coordinates><x>823</x><y>324</y><w>144</w><h>495</h></coordinates><panel_attributes>lt=-
+vende&gt;</panel_attributes><additional_attributes>10;10;10;450;560;450</additional_attributes></element><element><id>Relation</id><coordinates><x>595</x><y>406</y><w>112</w><h>385</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..n
-tiene&gt;</panel_attributes><additional_attributes>10;530;10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>625</x><y>234</y><w>342</w><h>504</h></coordinates><panel_attributes>lt=-
+tiene&gt;</panel_attributes><additional_attributes>10;530;10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>336</y><w>266</w><h>392</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..n
-realiza / es realizada&gt;</panel_attributes><additional_attributes>360;10;10;10;10;540</additional_attributes></element><element><id>Relation</id><coordinates><x>1273</x><y>450</y><w>405</w><h>360</h></coordinates><panel_attributes>lt=-
+realiza / es realizada&gt;</panel_attributes><additional_attributes>360;10;10;10;10;540</additional_attributes></element><element><id>Relation</id><coordinates><x>945</x><y>504</y><w>308</w><h>280</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1..1
-alquila&gt;</panel_attributes><additional_attributes>10;10;10;370;430;370</additional_attributes></element></diagram>
+alquila&gt;</panel_attributes><additional_attributes>10;10;10;370;420;370</additional_attributes></element></diagram>
