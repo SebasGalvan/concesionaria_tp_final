@@ -1,4 +1,4 @@
-package clases;
+package Entities;
 
 public class Persona {
     private Long id;

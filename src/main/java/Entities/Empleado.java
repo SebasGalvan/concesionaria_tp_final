@@ -1,4 +1,4 @@
-package clases;
+package Entities;
 
 public class Empleado extends Persona{
 
