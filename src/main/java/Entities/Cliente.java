@@ -8,3 +8,4 @@ public class Cliente extends Persona{
         super(dni, firsName, lastName);
     };
 };
+
