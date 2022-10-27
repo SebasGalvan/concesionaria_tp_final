@@ -1,17 +1,14 @@
 package BaseDeDatos;
 
-import Entities.Alquiler;
-<<<<<<< HEAD
-=======
+import Entities.Cliente;
 
 import Entities.Vehiculo;
->>>>>>> 9e03cb1255aaf740bbeed10b24a714fdda260ec5
 
 import java.util.ArrayList;
 
-public class DBAlquiler extends ArrayList<Alquiler> implements Comandos<Alquiler> {
+public class DBCliente extends ArrayList<Cliente> implements Comandos<Cliente> {
     @Override
-    public Alquiler create() {
+    public Vehiculo create() {
         return null;
     }
 
@@ -26,12 +23,12 @@ public class DBAlquiler extends ArrayList<Alquiler> implements Comandos<Alquiler
     }
 
     @Override
-    public ArrayList<Alquiler> getAll() {
+    public ArrayList<Cliente> getAll() {
         return null;
     }
 
     @Override
-    public Alquiler getById() {
+    public Vehiculo getById() {
         return null;
     }
 }
