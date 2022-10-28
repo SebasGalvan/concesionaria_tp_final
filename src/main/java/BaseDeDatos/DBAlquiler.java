@@ -1,11 +1,6 @@
 package BaseDeDatos;
 
 import Entities.Alquiler;
-<<<<<<< HEAD
-=======
-
-import Entities.Vehiculo;
->>>>>>> 9e03cb1255aaf740bbeed10b24a714fdda260ec5
 
 import java.util.ArrayList;
 
