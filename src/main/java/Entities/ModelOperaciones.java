@@ -3,7 +3,7 @@ package Entities;
 
 import java.util.Date;
 
-public class Operaciones {
+public class ModelOperaciones {
     private Long Id;
     private int legajo;
     private String dni;
@@ -13,7 +13,7 @@ public class Operaciones {
     private Long idAuto;
     private Long idPlan;
 
-    public Operaciones(int legajo, String dni, String nombre, String apellido, Date fecha, Long idAuto, Long idPlan) {
+    public ModelOperaciones(int legajo, String dni, String nombre, String apellido, Date fecha, Long idAuto, Long idPlan) {
         this.legajo = legajo;
         this.dni = dni;
         this.nombre = nombre;

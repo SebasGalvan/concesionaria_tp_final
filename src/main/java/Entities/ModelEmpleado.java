@@ -1,8 +1,8 @@
 package Entities;
 
-public class Empleado extends Persona{
+public class ModelEmpleado extends ModelPersona {
 
-    public Empleado(String dni, String firsName, String lastName) {
+    public ModelEmpleado(String dni, String firsName, String lastName) {
         super(dni, firsName, lastName);
     }
 }

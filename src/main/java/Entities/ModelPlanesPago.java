@@ -1,15 +1,15 @@
 package Entities;
 
-public class PlanesPago {
+public class ModelPlanesPago {
 
     private Long idPlan;
     private Double entrega;
     private Integer cuotas;
 
-    public PlanesPago() {
+    public ModelPlanesPago() {
     }
 
-    public PlanesPago(Long idPlan, Double entrega, Integer cuotas) {
+    public ModelPlanesPago(Long idPlan, Double entrega, Integer cuotas) {
         this.idPlan = idPlan;
         this.entrega = entrega;
         this.cuotas = cuotas;

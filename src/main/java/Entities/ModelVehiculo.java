@@ -1,6 +1,6 @@
 package Entities;
 
-public class Vehiculo {
+public class ModelVehiculo {
     private Long id;
     private Integer year;
     private String marca;
@@ -10,7 +10,7 @@ public class Vehiculo {
     private Double precioHora;
     private Boolean disponibilidad;
 
-    public Vehiculo(Integer year, String marca, String modelo, Double km, Double precio, Double precioHora, Boolean disponibilidad) {
+    public ModelVehiculo(Integer year, String marca, String modelo, Double km, Double precio, Double precioHora, Boolean disponibilidad) {
         this.id = id;
         this.year = year;
         this.marca = marca;
@@ -94,7 +94,7 @@ public class Vehiculo {
                 '}';
     }
 
-    public Vehiculo() {
+    public ModelVehiculo() {
     }
 }
 

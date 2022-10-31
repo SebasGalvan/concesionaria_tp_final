@@ -1,6 +1,6 @@
 package Entities;
 
-public class Repuesto {
+public class ModelRepuesto {
 
     private Long id;
     private String categoria;
@@ -9,10 +9,10 @@ public class Repuesto {
     private Double precio;
     private Double stock;
 
-    public Repuesto() {
+    public ModelRepuesto() {
     }
 
-    public Repuesto(Long id, String categoria, String marca, String modelo, Double precio, Double stock) {
+    public ModelRepuesto(Long id, String categoria, String marca, String modelo, Double precio, Double stock) {
         this.id = id;
         this.categoria = categoria;
         this.marca = marca;

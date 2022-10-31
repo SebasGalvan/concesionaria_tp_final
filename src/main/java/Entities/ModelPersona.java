@@ -1,6 +1,6 @@
 package Entities;
 
-public class Persona {
+public class ModelPersona {
     private Long id;
     private String dni;
     private String firsName;
@@ -41,7 +41,7 @@ public class Persona {
     }
 
 
-    public Persona(String dni, String firsName, String lastName) {
+    public ModelPersona(String dni, String firsName, String lastName) {
         this.dni = dni;
         this.firsName = firsName;
         LastName = lastName;
