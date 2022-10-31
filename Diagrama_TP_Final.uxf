@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>5</zoom_level><help_text>Space for diagram notesotr</help_text><element><id>UMLClass</id><coordinates><x>170</x><y>205</y><w>135</w><h>120</h></coordinates><panel_attributes>Persona
+<diagram program="umletino" version="15.0.0"><zoom_level>5</zoom_level><help_text>Space for diagram notesotr</help_text><element><id>UMLClass</id><coordinates><x>109</x><y>189</y><w>135</w><h>120</h></coordinates><panel_attributes>Persona
 --
 -id: Long
 -dni: String
@@ -13,19 +13,19 @@
 
 +setDni()
 +setFirstName()
-+setLastName()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>320</y><w>140</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>260;10;260;60;10;60;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>65</x><y>460</y><w>105</w><h>50</h></coordinates><panel_attributes>Empleado(Persona)
++setLastName()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>49</x><y>304</y><w>140</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>260;10;260;60;10;60;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>4</x><y>444</y><w>105</w><h>50</h></coordinates><panel_attributes>Empleado(Persona)
 --
 -legajo: String
 --
 +setLegajo(legajo: String)
-+getLegajo() : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>460</y><w>105</w><h>50</h></coordinates><panel_attributes>Cliente(Persona)
++getLegajo() : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>249</x><y>444</y><w>105</w><h>50</h></coordinates><panel_attributes>Cliente(Persona)
 --
 -
 --
 +
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>235</x><y>320</y><w>140</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60;260;60;260;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>950</x><y>450</y><w>215</w><h>235</h></coordinates><panel_attributes>Vehiculo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>174</x><y>304</y><w>140</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;hereda de&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60;260;60;260;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>889</x><y>434</y><w>215</w><h>235</h></coordinates><panel_attributes>Vehiculo
 --
 -id : Long
 -year: Int
@@ -55,7 +55,7 @@
 +setKm(km: Float)
 +setPrecio(precio: Float)
 +setPrecioHora(precioHora: Float)
-+setDisponibilidad(disponibilidad: Boolean)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>505</y><w>130</w><h>115</h></coordinates><panel_attributes>PlanesPago
++setDisponibilidad(disponibilidad: Boolean)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>419</x><y>489</y><w>130</w><h>115</h></coordinates><panel_attributes>PlanesPago
 --
 -IdPlan: Long
 -entrega : Float
@@ -70,7 +70,7 @@
 -setIdPlan(id: Long)
 +setEntrega(entrega : Float)
 +setCuotas(cuotas: Int)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>75</y><w>240</w><h>240</h></coordinates><panel_attributes>Operaciones
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>499</x><y>59</y><w>240</w><h>240</h></coordinates><panel_attributes>Operaciones
 --
 -id: Long
 -legajo:Int
@@ -99,7 +99,7 @@ idAuto:Long,id:Plan:Long)
 +setIdAuto(idAuto:Long)
 +setIdAuto(idAuto:Long)
 +setIdPlan(idPlan:Long)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>940</x><y>60</y><w>230</w><h>185</h></coordinates><panel_attributes>Repuesto
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>879</x><y>44</y><w>230</w><h>185</h></coordinates><panel_attributes>Repuesto
 --
 -id : Long
 -categoria: String
@@ -122,25 +122,25 @@ idAuto:Long,id:Plan:Long)
 +setMarca(marca: String)
 +setModelo(modelo: String)
 +setPrecio(precio: Float)
-+setStock(stock: Float)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>75</x><y>100</y><w>495</w><h>370</h></coordinates><panel_attributes>lt=-
++setStock(stock: Float)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>14</x><y>84</y><w>495</w><h>370</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=0..m
-registra / es registrada&gt;</panel_attributes><additional_attributes>10;720;10;20;970;20</additional_attributes></element><element><id>Relation</id><coordinates><x>795</x><y>125</y><w>155</w><h>25</h></coordinates><panel_attributes>lt=-
+registra / es registrada&gt;</panel_attributes><additional_attributes>10;720;10;20;970;20</additional_attributes></element><element><id>Relation</id><coordinates><x>734</x><y>109</y><w>155</w><h>25</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=1..n
-tiene&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>310</y><w>290</w><h>240</h></coordinates><panel_attributes>lt=-
+tiene&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>609</x><y>294</y><w>290</w><h>240</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1..1
-vende&gt;</panel_attributes><additional_attributes>10;10;10;450;560;450</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>240</y><w>80</w><h>275</h></coordinates><panel_attributes>lt=-
+vende&gt;</panel_attributes><additional_attributes>10;10;10;450;560;450</additional_attributes></element><element><id>Relation</id><coordinates><x>429</x><y>224</y><w>80</w><h>275</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..n
-tiene&gt;</panel_attributes><additional_attributes>10;530;10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>190</y><w>190</w><h>280</h></coordinates><panel_attributes>lt=-
+tiene&gt;</panel_attributes><additional_attributes>10;530;10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>319</x><y>174</y><w>190</w><h>280</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..n
-realiza / es realizada&gt;</panel_attributes><additional_attributes>360;10;10;10;10;540</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>310</y><w>220</w><h>200</h></coordinates><panel_attributes>lt=-
+realiza / es realizada&gt;</panel_attributes><additional_attributes>360;10;10;10;10;540</additional_attributes></element><element><id>Relation</id><coordinates><x>679</x><y>294</y><w>220</w><h>200</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1..1
-alquila&gt;</panel_attributes><additional_attributes>10;10;10;370;420;370</additional_attributes></element><element><id>UMLClass</id><coordinates><x>745</x><y>400</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+alquila&gt;</panel_attributes><additional_attributes>10;10;10;370;420;370</additional_attributes></element><element><id>UMLClass</id><coordinates><x>684</x><y>384</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
 Package::FatClass
 {Some Properties}
 --
@@ -152,7 +152,7 @@ _-ClassAttribute: Long_
 --
 Responsibilities
 -- Resp1
-*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>535</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>614</x><y>519</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
 Package::FatClass
 {Some Properties}
 --
