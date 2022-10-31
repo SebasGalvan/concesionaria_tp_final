@@ -1,14 +1,14 @@
 package Daos;
 
-import Entities.Cliente;
+import Entities.ModelCliente;
 
 import java.util.ArrayList;
 
-public class DBCliente extends ArrayList<Cliente> implements ICommandable<Cliente> {
+public class DAOCliente extends ArrayList<ModelCliente> implements ICommandable<ModelCliente> {
 
 
     @Override
-    public void create(Cliente cliente) {
+    public void create(ModelCliente cliente) {
 
     }
 

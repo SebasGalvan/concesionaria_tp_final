@@ -1,15 +1,13 @@
-package BaseDeDatos;
+package Daos;
 
 
-import java.util.ArrayList;
-
-public interface Comandos <T>{
+public interface ICommandable<T>{
 
 
-    public T create();
+    public void create(T item);
     public void remove();
     public void update();
-    public ArrayList<T> getAll();
-    public T getById();
+    public void findAll();
+    public void finadById();
 
 }

@@ -1,14 +1,14 @@
 package Daos;
 
-import Entities.Alquiler;
+import Entities.ModelAlquiler;
 
 import java.util.ArrayList;
 
-public class DBAlquiler extends ArrayList<Alquiler> implements ICommandable<Alquiler> {
+public class DAOAlquiler extends ArrayList<ModelAlquiler> implements ICommandable<ModelAlquiler> {
 
 
     @Override
-    public void create(Alquiler item) {
+    public void create(ModelAlquiler item) {
 
     }
 

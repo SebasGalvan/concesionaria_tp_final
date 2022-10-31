@@ -1,12 +1,12 @@
 package Daos;
 
-import Entities.Empleado;
+import Entities.ModelEmpleado;
 
 import java.util.ArrayList;
-public class DBEmpleado extends ArrayList<Empleado> implements ICommandable<Empleado> {
+public class DAOEmpleado extends ArrayList<ModelEmpleado> implements ICommandable<ModelEmpleado> {
 
     @Override
-    public void create(Empleado item) {
+    public void create(ModelEmpleado item) {
 
     }
 
