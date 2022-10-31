@@ -1,9 +1,8 @@
-package App;
+import Services.menu.ServiceMenuInicio;
+public class app {
 
-public class main {
-
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws InterruptedException {
+        ServiceMenuInicio.start();
     }
 }
 
