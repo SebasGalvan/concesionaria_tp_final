@@ -1,12 +1,14 @@
-package BaseDeDatos;
+package Daos;
 
-import Entities.Alquiler;
+import Entities.Vehiculo;
 
 import java.util.ArrayList;
 
-public class DBAlquiler extends ArrayList<Alquiler> implements Comandos<Alquiler> {
+public class DBVehiculos extends ArrayList<Vehiculo> implements ICommandable<Vehiculo> {
+
+
     @Override
-    public Alquiler create() {
+    public Vehiculo create() {
         return null;
     }
 
@@ -21,12 +23,13 @@ public class DBAlquiler extends ArrayList<Alquiler> implements Comandos<Alquiler
     }
 
     @Override
-    public ArrayList<Alquiler> getAll() {
+    public ArrayList<Vehiculo> findAll() {
         return null;
     }
 
     @Override
-    public Alquiler getById() {
+    public Vehiculo finadById() {
         return null;
     }
+
 }
